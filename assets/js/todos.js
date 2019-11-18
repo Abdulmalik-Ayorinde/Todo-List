@@ -16,7 +16,7 @@ $("input[type='text'").keypress(function(event){
 	if (event.which === 13) {
 	var inputContent = $(this).val();
 	$(this).val("");
-	$("ul").append("<li><span><i class='fa fa-trash'>Tr </i></span> " + inputContent + "</li>");
+	$("ul").append("<li><span><i class='fa fa-trash'> </i></span> " + inputContent + "</li>");
 	}
 });
 
